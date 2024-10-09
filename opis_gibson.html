@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z opisem gitary Gibson</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Zapobiega przewijaniu strony */
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh; /* Cała wysokość przeglądarki */
+            width: 100%;
+        }
+        .image-container {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* Zajmuje pełną wysokość kontenera */
+        }
+        .image-container img {
+            height: 100%;
+            max-width: 100%; /* Utrzymuje proporcje obrazu */
+            object-fit: contain;
+        }
+        .description-container {
+            width: 45%;
+            padding: 20px;
+            text-align: center;
+            background-color: #b3e5fc; /* Jasny błękit */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodaje delikatny cień dla efektu głębi */
+        }
+        .description-container p {
+            font-size: 22px; /* Większa czcionka */
+            line-height: 1.6;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-container">
+            <!-- Wpisz nazwę pliku obrazka gitary -->
+            <img src="gibson.jpg" alt="Zdjęcie gitary gibson">
+        </div>
+        <div class="description-container">
+            <!-- Wpisz tekst opisu produktu -->
+            <p>Korpus: Mahoń <br>
+                Gryf: Mahoń <br>
+                Podstrunnica: palisander <br>
+                Intarsje na podstrunnicy trapezowej<br>
+                Wiązanie podstrunnicy kremowe<br>
+                Profil szyjki: Slim Taper<br>
+                Skala: 628 mm<br>
+                Szerokość nakrętki: 43 mm<br>
+                Orzech Graph Tech<br>
+                22 średnie progi z kriogeniczną obróbką progów<br>
+                Przetworniki: humbuckery Burstbucker 61R (gryf) i 61T (mostek)<br>
+                2 regulatory głośności i 2 regulatory tonu<br>
+                Mostek aluminiowy Tune-O-Matic<br>
+                Aluminiowy ogranicznik<br>
+                Vintage Deluxe maszynki do gry<br>
+                Kolor: Srebrna Mgiełka<br>
+                Zawiera etui<br>
+                Wyprodukowano w USA
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
